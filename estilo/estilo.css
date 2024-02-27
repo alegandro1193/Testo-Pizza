@@ -104,7 +104,7 @@ body{
     flex-direction: column;
     margin-top: 101px;
 }
-.imagen_Pizza{
+.Imagen_Pizza{
    position: absolute;
    z-index: 2;
     opacity: 1;
@@ -176,4 +176,59 @@ footer p{
     z-index: -1;
     height: 200px;
     width: 100%;
+}
+
+@media (max-width: 667px) {
+    .lista{
+    color: #FFFFFF;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    margin-top: 42px;
+    }
+
+    .logo{
+        opacity: 1;
+        width: 101px;
+        height: 79;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Imagen_pizza{
+        position: absolute;
+        z-index: 2;
+         opacity: 1;
+         width: 200px;
+         height: 100px;
+     
+     }
+
+     .contacto{
+        margin-top: 25px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+
+    .white-overlay{
+        position: absolute;
+        bottom: 75%;
+        z-index: -1;
+        height: 50px;
+        width: 100%;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0px;
+        background-color: #FFFFFF;
+        width: 100%;
+     }
 }
